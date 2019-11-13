@@ -19,7 +19,7 @@
   <%= f.text_field :gender %>
 <br>
   <%= f.label :alive %>
-  <%= f.check_box :alive %>
+  <%= f.select :alive, options_for_select([['Yes', true], ['No', false]]) %>
 <br>
 
   <%= f.submit %></h2>
