@@ -1,9 +1,13 @@
-<h1><%= @person.first_name %></h1>
-<h4><%= @person.last_name %></h1>
-<p><%= @person.age %></p>
-<p><%= @person.hair_color %></p>
-<p><%= @person.eye_color %></p>
-<p><%= @person.gender %></p>
-<p><%= @person.alive %></p>
+<h1><%= @person.full_name %></h1>
+<h3><%= "Age" %></h3>
+<p><%= @person.age %></p><br>
+<h3><%= "Hair Color" %></h3>
+<p><%= @person.hair_color %></p><br>
+<h3><%= "Eye Color" %></h3>
+<p><%= @person.eye_color %></p><br>
+<h3><%= "Gender" %></h3>
+<p><%= @person.gender %></p><br>
+<h3><%= "alive?" %></h3>
+<p><%= @person.alive %></p><br>
 
 <%= link_to 'Back', people_path %>

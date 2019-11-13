@@ -1,25 +1,26 @@
-<h1>Edit Person</h1>
+<br><h1>Edit Person</h1><br>
 <%= form_for @person do |f| %>
-  <%= f.label :first_name %>
+ <h2> <%= f.label :first_name %>
   <%= f.text_field :first_name %>
-
+<br>
   <%= f.label :last_name %>
   <%= f.text_field :last_name %>
-
+<br>
   <%= f.label :age %>
   <%= f.text_field :age %>
-
+<br>
   <%= f.label :hair_color %>
   <%= f.text_field :hair_color %>
-
+<br>
   <%= f.label :eye_color %>
   <%= f.text_field :eye_color %>
-
+<br>
   <%= f.label :gender %>
   <%= f.text_field :gender %>
-
+<br>
   <%= f.label :alive %>
   <%= f.check_box :alive %>
+<br>
 
-  <%= f.submit %>
+  <%= f.submit %></h2>
 <% end %>
